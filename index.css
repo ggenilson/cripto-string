@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fira Code';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.container > * {
+  margin-bottom: 20px;
+}
+
+.container select,
+textarea {
+  background-color: rgb(248, 246, 244);
+  width: 50%;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+}
+
+.container select {
+  height: 40px;
+}
+
+.container .text {
+  font-size: 16px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container .result {
+  font-size: 17px;
+  font-weight: bold;
+  white-space: normal;
+}
+
+.span-info {
+  width: 50%;
+  height: auto;
+  align-self: center;
+}
